@@ -29,7 +29,7 @@ RUN cp -r /root/.oh-my-zsh /home/student/.oh-my-zsh
 
 # setup student tldr
 USER student
-RUN cd ~
+WORKDIR /home/student
 RUN mkdir -p ~/.local/share/tldr
 RUN tldr -u
 
