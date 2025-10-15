@@ -17,7 +17,7 @@ RUN apt install -y \
   tree \
   texlive \
   lsb-release \
-  gpg # for eza # https://eza.rocks
+  gpg # for eza # https://eza.rocks 
 
 # setup tldr
 RUN mkdir -p /root/.local/share/tldr
